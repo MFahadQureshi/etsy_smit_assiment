@@ -1,0 +1,353 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+  
+nav {
+  height: 80px;
+  /* background-color: beige; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 12px;
+  width: 98.2%;
+  font-size: 20px;
+}
+
+nav h6{
+    color: #F1641E;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+nav span{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+nav div > span > i{
+    font-size: 20px;
+}
+
+nav .search_bar{
+    margin-top: -2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_bar{
+  background-color: rgb(255, 255, 255);
+  max-width: 700px;
+  height: 40px;
+  color: #F1641E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  text-align: center;
+  border: 2px solid #F1641E;
+  border-radius: 50px;
+  padding: 0px 20px;
+  font-size: 15px;
+}
+.search_bar input:focus{
+    outline: none;
+}
+
+.search_bar input{
+  border:0px solid #F1641E ;
+  width: 650px;
+  height: 40px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #F1641E;
+}
+.search_bar i{
+  font-size: 18px;
+  color: #F1641E;
+  cursor: pointer;
+}
+  
+.heading {
+  margin-top: 40px;
+  font-size: 2em;
+  font-weight: lighter;
+}
+  
+.logo {
+  cursor: pointer;
+  color: #F1641E;
+}
+  
+.nav_item {
+  cursor: pointer;
+}
+  
+.food {
+  font-size: 20px;
+  margin: 0px 12px;
+  font-weight: 300;
+}
+
+.food i{
+    color: #F1641E;
+}
+  
+.food:hover {
+  /* color: #F1641E; */
+  text-decoration: underline;
+}
+  
+h2 {
+  font-weight: lighter;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+  
+.category_box {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 8px;
+  cursor: pointer;
+  text-align: center;
+  /* border: 2px solid black; */
+}
+  
+.category_box:hover {
+  text-decoration: underline;
+}
+  
+.category_box > img:hover {
+  transform: scale(1.03);
+  transition: 0.8s;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+.category_box span{
+    font-size: 25px;
+}
+
+.category_box > img {
+  height: 90px;
+  width: 90px;
+  border-radius: 45px;
+}
+.category_box > span {
+  font-weight: lighter;
+  padding-top: 5px;
+  font-size: 14px;
+  font-family: "Quicksand", sans-serif;
+}
+  
+.cateogory_parent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+  
+.category_long_box {
+  height: 300px;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  margin: 5px 10px;
+  cursor: pointer;
+  border: 1px solid white;
+}
+  
+.category_long_box:hover {
+  box-shadow: 0px 1px 1px 1px lightgray;
+  border-radius: 15px;
+}
+.category_long_box > img {
+  height: 296px;
+  width: 154px;
+  border-radius: 15px;
+}
+.category_long_box > span {
+  font-weight: lighter;
+  padding-top: 5px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+  
+.cateogory_long_parent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+  
+.learning_position {
+  height: 50px;
+  width: 50px;
+  background-color: lightseagreen;
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.learning_position > a > i {
+  font-size: 40px;
+  color: white;
+}
+  
+.learning_position_absolute {
+  height: 300px;
+  width: 600px;
+  background-color: black;
+  color: white;
+}
+  
+.learning_position_absolute_box {
+  height: 80px;
+  background-color: orange;
+  width: 200px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    font-size: 18px;
+    color: #F1641E;
+    /* border: #F1641E; */
+}
+
+.btn button:hover{
+    transition: 0.8s;
+    background-color: #F1641E;
+    color: #fff;
+}
+
+/*  */
+
+.food-box{
+    height: 320px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+.food-font{
+    font-size: 14px;
+    text-align: center;
+   padding: 5px;
+}
+.food-box > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.food-price{
+    font-size: small;
+    color: rgb(55, 221, 22);
+    text-decoration: line-through;
+    margin-top: 5px;
+}
+.food-categories-parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    flex-wrap: wrap;
+}
+.food-box > span{
+    padding: 5px;
+}
+.food-box:hover{
+    box-shadow: 5px 5px 5px 5px rgb(215, 202, 202);
+    transform: scale(1.01);
+}
+
+.last-box{
+    background-color: rgba(241, 100, 30, 0.2);
+    /* min-height: 600px; */
+    /* width: 100%; */
+    /* margin-bottom: 100px; */
+    /* margin-top: 60px; */
+    /* flex-wrap: wrap; */
+}
+.last-box-child{
+    text-align: center;
+}
+.last-box-child > h4{
+    text-decoration: underline;
+}
+.last-box-child1{
+    height: 180px;
+    width: 380px;
+    margin-top: 15px;
+    margin: 10px;
+}
+.last-box-parent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.last-box-child1 > div > h1{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.last-box-child1 > div > p{
+    font-size: 20px;
+    padding: 25px;
+}
+.ques{
+    text-align: center;
+}
+.ques > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button > button{
+    width: 180px;
+    height: 50px;
+    background-color: #fff;
+    color: #F1641E;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button > button:hover{
+   transform: scale(1.04);
+   color: #fff;
+   background-color: #F1641E;
+   transition: 0.4s;
+}
